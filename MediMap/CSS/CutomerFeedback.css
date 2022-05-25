@@ -1,0 +1,45 @@
+.cusImage {
+  height: 121px;
+  width: 160px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .cusImage {
+    height: 163px;
+    width: 216px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .cusImage {
+    height: 255px;
+    width: 336px;
+  }
+}
+
+/*Large devices (desktops, 992px and up*/
+@media (min-width: 992px) {
+  .cusImage {
+    height: 279px;
+    width: 368px;
+  }
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .cusImage {
+    height: 355px;
+    width: 468px;
+  }
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  .cusImage {
+    height: 355px;
+    width: 468px;
+  }
+}
+/*# sourceMappingURL=CutomerFeedback.css.map */

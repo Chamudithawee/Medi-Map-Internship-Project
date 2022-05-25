@@ -1,0 +1,469 @@
+.logo {
+    width:121px;
+    height:35px;
+}
+
+#loginbutton {
+    background-color:#8CB8E0;
+}
+
+.loginbuttons{
+    float: right;
+
+}
+
+.navbar .megamenu {
+    padding: 1rem; 
+}
+
+
+
+.welcomevideo {
+
+    width: 200px;
+    height: 101.04px;
+}
+
+#priscriberlogin {
+    margin-left: 10px;
+    font-size: 11px;
+    height: 40px;
+}
+
+
+
+
+
+#navtext {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 98px;
+}
+
+
+
+#navtextfirst:hover { 
+    color:#343333; 
+  }
+
+
+.megaMenulinks {
+    font-size: 20px;
+    color: white;
+}
+
+.megaMenulinks:hover {
+    color:#8CB8E0;
+}
+
+.navactive {
+    color:#343333;
+   
+}
+
+.mainheader {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.megamenufontHeader {
+    font-size: 20px;
+    color:#8CB8E0;
+}
+
+.megamenufont {
+    font-size: 15px;
+    color: white;
+}
+
+.mainbullets {
+    font-size: 15px;
+    color: white;
+}
+
+.cardText {
+    font-size: 15px;
+    text-align: left;
+}
+
+.cardsubText {
+    color: black;
+    font-size: 12px;
+    text-align: right;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+    .logo {
+        width:242px;
+        height:70px;
+        
+    }
+
+    #welcomevideo {
+        width:120 ;
+        height:60 ;
+    }
+    
+    #loginbutton {
+        background-color:#8CB8E0;
+    }
+
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+    
+    .loginbuttons{
+        float: right;
+    
+    }
+    
+    #priscriberlogin {
+        margin-left: 27px;
+    }
+    
+    #navtext {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 98px;
+    }
+    
+    #navtext:hover { 
+        color:#343333; 
+      }
+    
+    .navactive {
+        color:#343333;
+      
+       
+    }
+    
+    .mainheader {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .welcomevideo {
+
+        width: 400px;
+        height: 202.08px;
+    }
+    
+    .mainbullets {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .cardText {
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .cardsubText {
+        color: black;
+        font-size: 12px;
+        text-align: right;
+    }
+
+
+
+
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .logo {
+        width:242px;
+        height:70px;
+        
+    }
+    
+    #loginbutton {
+        background-color:#8CB8E0;
+    }
+    
+    .loginbuttons{
+        float: right;
+    
+    }
+    
+    #priscriberlogin {
+        margin-left: 27px;
+    }
+
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+    
+    #navtext {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 98px;
+    }
+    
+    #navtext:hover { 
+        color:#343333; 
+      }
+    
+    .navactive {
+        color:#343333;
+        
+        
+    }
+    
+    .mainheader {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .welcomevideo {
+
+        width: 600px;
+        height: 303.13px;
+    }
+    
+    .mainbullets {
+        font-size: 20px;
+        color: white;
+    }
+    
+    .cardText {
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .cardsubText {
+        color: black;
+        font-size: 12px;
+        text-align: right;
+    }
+
+
+ }
+
+/*Large devices (desktops, 992px and up*/
+@media (min-width: 992px) { 
+    .logo {
+        width:242px;
+        height:70px;
+    }
+    
+    #loginbutton {
+        background-color:#8CB8E0;
+    }
+    
+    .loginbuttons{
+        float: right;
+    
+    }
+    
+    #priscriberlogin {
+        margin-left: 27px;
+    }
+
+    .navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+	
+    
+    #navtext {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 98px;
+    }
+    
+    #navtext:hover { 
+        color:#343333; 
+      }
+    
+    .navactive {
+        color:#343333;
+        
+        
+    }
+    
+    .mainheader {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .welcomevideo {
+
+        width: 600px;
+        height: 303.13px;
+    }
+    
+    .mainbullets {
+        font-size: 30px;
+        color: white;
+    }
+    
+    .cardText {
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .cardsubText {
+        color: black;
+        font-size: 12px;
+        text-align: right;
+    }
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    .logo {
+        width:242px;
+        height:70px;
+    }
+    
+    #loginbutton {
+        background-color:#8CB8E0;
+    }
+    
+    .loginbuttons{
+        float: right;
+    
+    }
+    
+
+    .navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+	
+    #priscriberlogin {
+        margin-left: 27px;
+    }
+    
+    #navtext {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    
+    #navtext:hover { 
+        color:#343333; 
+      }
+    
+    .navactive {
+        color:#343333;
+       
+       
+    }
+    
+    .mainheader {
+        font-size: 50px;
+        font-weight: 500;
+    }
+
+    .welcomevideo {
+
+        width: 800px;
+        height: 404.17px;
+    }
+    
+    .mainbullets {
+        font-size: 30px;
+        color: white;
+    }
+    
+    .cardText {
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .cardsubText {
+        color: black;
+        font-size: 12px;
+        text-align: right;
+    }
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+    .logo {
+        width:242px;
+        height:70px;
+    }
+    
+    #loginbutton {
+        background-color:#8CB8E0;
+    }
+    
+    .loginbuttons{
+        float: right;
+    
+    }
+
+    .navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0; height: 250px; }
+	
+	
+    
+    #priscriberlogin {
+        margin-left: 27px;
+    }
+    
+    #navtext {
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #navtextfirst {
+        color: white;
+        font-size: 20px;
+        font-weight: bold; 
+    }
+    
+    #navtext:hover { 
+        color:#343333;
+      }
+    
+    .navactive {
+        color:#343333;
+    }
+    
+    .mainheader {
+        font-size: 50px;
+        font-weight: 500;
+    }
+    
+    .mainbullets {
+        font-size: 30px;
+        color: white;
+    }
+
+    .welcomevideo {
+
+        width: 800px;
+        height: 404.17px;
+    }
+    
+    .cardText {
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .cardsubText {
+        color: black;
+        font-size: 12px;
+        text-align: right;
+    }
+
+ }
