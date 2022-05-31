@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
               <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                 <li class="nav-item  text-left">
-                  <a class="nav-link navactive" id="navtextfirst" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link navactive" id="navtextfirst" aria-current="page" href="./Home.html">HOME</a>
                 </li>
               
                 <li class="nav-item">
@@ -61,11 +61,11 @@
                           <div class="col-12 col-sm-4 col-md-3 py-4 ">
                           
                             <ul class="list-unstyled" >
-                              <li class="megaMenulinks">Company Profile</li>
-                              <li class="megaMenulinks">Our Team</li>
-                              <li class="megaMenulinks">Our Journey</li>
-                              <li class="megaMenulinks">What Our Customers Say</li>
-                              <li class="megaMenulinks">News</li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./CompanyProfile.html">Company Profile</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./Team.html">Our Team</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./OurJourney.html">Our Journey</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./CustomerFeedback.html">What Our Customers Say</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./News.html">News</a></li>
                             </ul>
                     
                           </div>                 
@@ -88,10 +88,10 @@
                           <div class="col-12 col-sm-4 col-md-3 py-4">
                           
                             <ul class="list-unstyled" >
-                              <li class="megaMenulinks">Care</li>
-                              <li class="megaMenulinks">Pharmacy</li>
-                              <li class="megaMenulinks">Prescriber</li>
-                              <li class="megaMenulinks">Integrations</li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./Agedcare.html">Care</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./Pharmacy.html">Pharmacy</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./Prescriber.html">Prescriber</a></li>
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./Innovation.html">Integrations</a></li>
                               
                             </ul>
                     
@@ -119,6 +119,15 @@
                             
                            
                           </div>
+
+                          <div class="col-12 col-sm-4 col-md-3 py-4">
+                          
+                            <ul class="list-unstyled" >
+                              <li><a class="megaMenulinks" style="text-decoration:none" href="./ContactUs.html">Contact Us</a></li>
+                              
+                            </ul>
+                    
+                          </div>            
                       
                         </div>
                       </div>
@@ -129,10 +138,10 @@
           </div>
       </nav><br>
        
-      <h1  class="mainheader text-center">Prescriber Registration Form</Form></h1>
+      <h1 data-aos="fade-up"  class="mainheader text-center">Prescriber Registration Form</Form></h1>
       <br>
 
-      <div class="container regbox">
+      <div data-aos="fade-right" class="container regbox">
          
 
         <div class="row">
@@ -144,123 +153,134 @@
                 <div class="text-right"><br>
       
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6">First Name</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6">First Name<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">Last Name</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">Last Name<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">E-mail</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">E-mail<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">Practice Phone</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">Practice Phone<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">APHRA #</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">APHRA #<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">PBS #</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">PBS #<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">Practice Name</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">Practice Name<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
+                    <div class=" col-12 col-md-3">
                       <label for="inputPassword6" class="col-form-label">HPI-O (if know)</label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">Practice Address</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">Practice Address<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">City / Town</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">City / Town<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">State</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">State<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
-                      <label for="inputPassword6" class="col-form-label">Post/Zip Code</label>
+                    <div class="col-12 col-md-3">
+                      <label for="inputPassword6" class="col-form-label">Post/Zip Code<span style="color: red;">*</span></label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
                 <div class="row g-3 align-items-center">
-                    <div class="col-3">
+                    <div class="col-12 col-md-3">
                       <label for="inputPassword6" class="col-form-label">Message</label>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12 col-md-9">
                       <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                     </div>
                 </div><br>
 
-                <button type="submit" class="btn btn-primary " id="loginbutton">Register</button>
+                <div class="row g-3 align-items-center">
+                  <div class="col-3">
+                    
+                  </div>
+                  <div class="col-9">
+                    <button type="submit" class="btn btn-primary " style="float: right;" id="loginbutton">Register</button>
+                  </div>
+              </div><br>
+                
+                  
+                </div>
+                
                 </div>
                 <div class="col-3">
 
